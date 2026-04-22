@@ -13,7 +13,7 @@ Built a Windows Server 2022 lab on VMware with 1 Domain Controller and 1 Windows
 
 ## Screenshots
 ### Active Directory Setup
-![AD Setup](screenshots/adds/AD1.png)
+![AD Setup](screenshots/adds/AD.png)
 
 ### DNS Configuration
 ![DNS Setup](screenshots/dns/DNS1.png)
