@@ -19,7 +19,7 @@ Built a Windows Server 2022 lab on VMware with 1 Domain Controller and 1 Windows
 ![DNS Setup](screenshots/dns/DNS1.png)
 
 ### DHCP Configuration
-![DHCP Setup](screenshots/dhcp/DHCP1.png)
+![DHCP Setup](screenshots/dhcp/DHCP.png)
 
 ### Group Policy - Map Drive
 ![GPO Setup](screenshots/gpo/GPO1.png)
