@@ -8,26 +8,31 @@ Built a Windows Server 2022 lab on VMware with 1 Domain Controller and 1 Windows
 - DNS
 - DHCP
 - Domain Join
-- Group Policy (Drive Mapping)
-- Basic Audit Logging
-
-## Key Tasks
-- Created and configured the `company.local` domain
-- Joined Windows 10 client to the domain
-- Configured DHCP scope and verified IP lease assignment
-- Configured GPO to map network drive `Z:`
-- Verified logon events in Event Viewer
-
-## Technologies
-- Windows Server 2022
-- Windows 10
-- Active Directory
-- DNS
-- DHCP
-- Group Policy
-- Event Viewer
-- PowerShell
-- VMware
+- Group Policy Objects (GPO) - Drive Mapping
+- Audit Logging
 
 ## Screenshots
-See the `screenshots/` folder for deployment and validation results.
+### Active Directory Setup
+![AD Setup](screenshots/adds/AD1.png)
+
+### DNS Configuration
+![DNS Setup](screenshots/dns/DNS1.png)
+
+### DHCP Configuration
+![DHCP Setup](screenshots/dhcp/DHCP1.png)
+
+### Group Policy - Map Drive
+![GPO Setup](screenshots/gpo/GPO1.png)
+
+### Event Logs (Audit)
+![Audit Logs](screenshots/audit-log/Log1.png)
+
+## How to Set Up
+1. Install **Windows Server 2022** on a VMware machine.
+2. Set up **AD DS**, **DNS**, and **DHCP** as described in the steps.
+3. Join a Windows 10 machine to the domain.
+4. Apply **GPO** for drive mapping.
+5. Enable **Audit Logging** to monitor domain activities.
+
+## Conclusion
+This setup simulates a small enterprise environment, enabling centralized management with Active Directory and enhanced security monitoring via auditing.
