@@ -13,10 +13,10 @@ Built a Windows Server 2022 lab on VMware with 1 Domain Controller and 1 Windows
 
 ## Screenshots
 ### Active Directory Setup
-![AD Setup](screenshots/adds/AD.png)
+![AD Setup](screenshots/join_domain/join_domain.png)
 
 ### DNS Configuration
-![DNS Setup](screenshots/dns/DNS1.png)
+![DNS Setup](screenshots/dns/DNS.png)
 
 ### DHCP Configuration
 ![DHCP Setup](screenshots/dhcp/DHCP.png)
@@ -25,7 +25,7 @@ Built a Windows Server 2022 lab on VMware with 1 Domain Controller and 1 Windows
 ![GPO Setup](screenshots/gpo/GPO%20map%20drive.png)
 
 ### Event Logs (Audit)
-![Audit Logs](screenshots/audit-log/Log1.png)
+![Audit Logs](screenshots/audit.png)
 
 ## How to Set Up
 1. Install **Windows Server 2022** on a VMware machine.
